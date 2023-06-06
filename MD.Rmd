@@ -24,6 +24,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ## What is the SQMM? 
 The Statistical Quality Maturity Model is annually commissioned by the Quality Committee since 2021, so 2023 is its 3rd round. It is an exercise that helps ONS monitor the quality of its regular outputs and identify areas in need of further support. By doing this, it enables ONS to be pro-active in identifying quality improvements that need to be made to its statistics to meet the needs of its users. 
 <br>
+<br>
 
 ## What are the benefits of the SQMM? 
 The benefit of the SQMM is twofold. It helps ONS monitor the quality of its regular outputs and identify areas of further support. At the same time, it also gives the opportunity for production teams to pause and reflect on risks to the quality of their statistics. Teams can subsequently use the SQMM to raise those concerns to be heard across their divisions and, if appropriate addressed.   
@@ -31,6 +32,7 @@ The benefit of the SQMM is twofold. It helps ONS monitor the quality of its regu
 
 ## How have results from previous years been used? 
 The data from the two previous rounds of the SQMM have become a central resource on quality in ONS. Examples of their uses include prioritizing where deep dive Quality Reviews should take place, readily providing quality information when supporting areas where published errors have occurred and understanding where legacy systems are used.
+<br>
 <br>
 <br>
 
@@ -52,11 +54,11 @@ There are three main stages in the SQMM process:
 
 ## What are the key dates for the SQMM 2023 round? 
 
-|Stage                    |When                           |
-|------------------------ |-------------------------------|
-|SQMM questionnaire       |15th May – 11th August         | 
-|SQMM validation workshop |15th August – 15th September   |
-|Final Submission         |15th September – 29th September| 
+
+- SQMM questionnaire: 15th May to 11th August 
+- SQMM validation workshop: 15th August to 15th September
+- Final Submission: 15th September to 29th September 
+<br>
 <br>
 
 ## What changes have you made this year? 
@@ -109,7 +111,7 @@ For any issues, questions please contact [DQHub](mailto:DQHub@ons.gov.uk). We wi
 <br>
 
 ## Do you read through our responses? 
-Yes, we do. After you’ve filled in your questionnaire, a small team of us here in DQHub will read through your responses prior to the validation workshop and might contact you to discuss. The purpose of this is twofold. It helps us validate the responses, e.g., that the examples you used are sufficient, and at the same time that the examples correspond to the rating that you have chosen.  
+Yes, we do. After you have filled in your questionnaire, a small team of us here in DQHub will read through your responses prior to the validation workshop and might contact you to discuss. The purpose of this is twofold. It helps us validate the responses, e.g., that the examples you used are sufficient, and at the same time that the examples correspond to the rating that you have chosen.  
 <br>
 <br>
 
@@ -122,7 +124,6 @@ he validation workshop has three different functions: Firstly, it will give team
 
 ## How and when do I book my validation workshop? 
 W We will contact you at the end of June to ask you to book your validation workshop.  
-<br>
 <br>
 
 ## Who long will the validation workshop take? 
@@ -155,6 +156,7 @@ Yes, please contact [DQHub](mailto:DQHub@ons.gov.uk).
 
 ## Can I have a copy of my final responses? 
 Yes, please contact [DQHub](mailto:DQHub@ons.gov.uk). 
+<br>
 <br>
 <br>
 

@@ -1,55 +1,29 @@
 ---
-title: "Type title here "
-author: "Type author(s) here"
-date: 'Last updated XX-XX-20XX'
-output: 
-  html_document:
-    css: style.css
-    toc: true
-    toc_depth: 2
-    number_sections: true
-    toc_float: true
+title: "Coding Pocket"
+output: html_document
+date: '2023-11-14'
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-<br>
-![](.//DQHubLogo_full_colours.png){width=35%}
-<br>
-<br>
 
-# **Section Title** 
+## R Markdown
 
-## Subsection title
-Subsection_text
-<br>
-<br>
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
-## Subsection title
-Subsection_text   
-<br>
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
 
-## Subsection title
-Subsection_text
-<br>
-<br>
+```{r cars}
+summary(cars)
+```
 
-# **Section Title** 
+## Including Plots
 
-## Subsection title
-Subsection_text
-<br>
-<br>
+You can also embed plots, for example:
 
-## Subsection title
-Subsection_text 
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
 
-- Option 1
-- Option 2
-<br>
-<br>
-
-# **Contact**
-
-Any questions, thoughts or comments, please contact [DQHub](mailto:DQHub@ons.gov.uk)
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

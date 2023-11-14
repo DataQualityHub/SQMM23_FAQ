@@ -41,42 +41,6 @@ The data from the two previous rounds of the SQMM have become a central resource
 ## Who needs to complete an SQMM? 
 Output managers of regular outputs are responsible for completing an SQMM for their outputs. However, as SQMM questions cover the end-to-end production process, we encourage managers to involve and consult their teams and colleagues from other teams involved. A full list of the expected SQMM returns is available below.
 
-```{r packages, echo = FALSE, message=FALSE, warning=FALSE}
-library(tidyverse)
-library(kableExtra)
-
-```
-
-```{r read titanic, include=FALSE}
-commissionning_data <- readxl::read_excel(".\\input\\DDs_SQMM_2023_population[phase2].xlsx", sheet = 2, skip = 3) %>%
-  janitor::clean_names() %>%
-  filter(commissioned_date !="NA") %>% 
-  select(division_2023,
-         sqmm2023_expected_return_name,
-         sqmm23_id,
-         email_of_output_manager,
-         sqmm_2022_return_if_exists) %>% 
-    distinct(sqmm2023_expected_return_name,
-           sqmm23_id,
-           email_of_output_manager, .keep_all = TRUE) %>% 
-  rename(Division = division_2023,
-         Output = sqmm2023_expected_return_name,
-         'Output manager(s)' = email_of_output_manager,
-         'Output code' = sqmm23_id,
-         'sqmm2022 return' = sqmm_2022_return_if_exists) %>% 
-  arrange(Division,
-          Output,
-          'Output manager(s)')
-```
-
-
-```{r kable_table, echo = FALSE, results = TRUE}
-
-commissionning_data %>% 
-  kable() %>% 
-  kable_styling(bootstrap_options = c("striped", "condensed")) %>% 
-  kableExtra::scroll_box(width = "120", height = "1000px")
-```
 <br>
 <br>
 
